@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lost and Found</title>
+</head>
+<body>
+    <h1>Add Item to Lost and Found</h1>
+    <form action="process.php" method="post" enctype="multipart/form-data">
+        <label for="item">Item:</label>
+        <input type="text" name="item" required><br>
+        <label for="email">Contact Email:</label>
+        <input type="email" name="email" required><br>
+        <label for="description">Description:</label>
+        <textarea name="description" required></textarea><br>
+        <label for="image">Image:</label>
+        <input type="file" name="image" required><br>
+        <button type="submit">Add</button>
+    </form>
+</body>
+</html>
